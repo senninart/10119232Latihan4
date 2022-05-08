@@ -12,6 +12,11 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+/*M Faisal Obara
+10119232
+IF 6
+08 Mei 2022*/
+
 public class Gallery extends AppCompatActivity {
 
     BottomNavigationView bottomNavigationView;

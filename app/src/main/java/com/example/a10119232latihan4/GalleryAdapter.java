@@ -9,6 +9,11 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+/*M Faisal Obara
+10119232
+IF 6
+08 Mei 2022*/
+
 public class GalleryAdapter extends RecyclerView.Adapter<GalleryAdapter.ViewHolder> {
 
     Context context;

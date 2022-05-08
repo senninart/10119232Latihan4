@@ -9,6 +9,11 @@ import android.view.MenuItem;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+/*M Faisal Obara
+10119232
+IF 6
+07 Mei 2022*/
+
 public class Home extends AppCompatActivity {
 
     BottomNavigationView bottomNavigationView;

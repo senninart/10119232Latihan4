@@ -28,6 +28,11 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 import java.util.Locale;
 
+/*M Faisal Obara
+10119232
+IF 6
+07 Mei 2022*/
+
 public class Profile extends AppCompatActivity{
 
     BottomNavigationView bottomNavigationView;
