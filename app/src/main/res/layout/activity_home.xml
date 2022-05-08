@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp">
+
+        <View
+            android:id="@+id/bg1"
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/background_tealgreen_5rad"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!--//Belum ada photonya-->
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/photo"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/flo"
+            android:theme="@style/customRoundedImage"
+            app:layout_constraintStart_toStartOf="@id/bg1"
+            app:layout_constraintTop_toTopOf="@id/bg1" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_regular"
+            android:gravity="center"
+            android:text="@string/description"
+            android:textColor="@color/royal_blue"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            app:layout_constraintBottom_toTopOf="@id/hobby"
+            app:layout_constraintEnd_toEndOf="@id/bg1"
+            app:layout_constraintStart_toEndOf="@id/photo"
+            app:layout_constraintTop_toBottomOf="@id/bg1" />
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/nama"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginStart="30dp"
+            app:layout_constraintBottom_toBottomOf="@id/bg1"
+            app:layout_constraintEnd_toEndOf="@id/bg1"
+            app:layout_constraintStart_toEndOf="@id/hobby"
+            app:layout_constraintTop_toTopOf="@id/bg1" />
+
+        <TextView
+            android:id="@+id/hobby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hobby"
+            android:textColor="@color/royal_blue"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/description" />
+
+        <View
+            android:id="@+id/bg2"
+            android:layout_width="match_parent"
+            android:layout_height="149dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/background_tealgreen_40rad"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/hobby" />
+
+        <TextView
+            android:id="@+id/swim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/icon_swim"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/swim"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/watch"
+            app:layout_constraintEnd_toStartOf="@id/gaming"
+            app:layout_constraintStart_toStartOf="@id/bg2"
+            app:layout_constraintTop_toTopOf="@id/bg2" />
+
+        <TextView
+            android:id="@+id/gaming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@drawable/icon_game"
+            android:fontFamily="@font/montserrat_regular"
+            android:text="@string/game"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/bg2"
+            app:layout_constraintStart_toEndOf="@id/swim"
+            app:layout_constraintTop_toTopOf="@id/swim" />
+
+        <TextView
+            android:id="@+id/interest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:text="@string/interest"
+            android:textColor="@color/royal_blue"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/bg2" />
+
+        <TextView
+            android:id="@+id/watch"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/icon_movie"
+            android:fontFamily="@font/montserrat_regular"
+            android:gravity="center"
+            android:text="@string/watch"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/bg2"
+            app:layout_constraintEnd_toEndOf="@id/bg2"
+            app:layout_constraintStart_toStartOf="@id/bg2"
+            app:layout_constraintTop_toBottomOf="@id/swim" />
+
+        <View
+            android:id="@+id/bg3"
+            android:layout_width="match_parent"
+            android:layout_height="149dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/background_tealgreen_40rad"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/interest" />
+
+        <TextView
+            android:id="@+id/comp"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_computer"
+            android:fontFamily="@font/montserrat_regular"
+            android:gravity="center"
+            android:text="@string/comp"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/business"
+            app:layout_constraintEnd_toStartOf="@id/girl"
+            app:layout_constraintStart_toStartOf="@id/bg3"
+            app:layout_constraintTop_toTopOf="@id/bg3" />
+
+        <TextView
+            android:id="@+id/business"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_business"
+            android:fontFamily="@font/montserrat_regular"
+            android:gravity="center"
+            android:text="@string/business"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/stock"
+            app:layout_constraintEnd_toStartOf="@id/girl"
+            app:layout_constraintStart_toStartOf="@id/bg3"
+            app:layout_constraintTop_toBottomOf="@id/comp" />
+
+        <TextView
+            android:id="@+id/girl"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_female"
+            android:fontFamily="@font/montserrat_regular"
+            android:gravity="center"
+            android:text="@string/girl"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/bg3"
+            app:layout_constraintStart_toEndOf="@id/comp"
+            app:layout_constraintTop_toTopOf="@id/comp" />
+
+        <TextView
+            android:id="@+id/code"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_code"
+            android:fontFamily="@font/montserrat_regular"
+            android:gravity="center"
+            android:text="@string/code"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/business"
+            app:layout_constraintEnd_toEndOf="@id/bg3"
+            app:layout_constraintStart_toEndOf="@id/comp"
+            app:layout_constraintTop_toTopOf="@id/business" />
+
+        <TextView
+            android:id="@+id/stock"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/icon_stock"
+            android:fontFamily="@font/montserrat_regular"
+            android:gravity="center"
+            android:text="@string/stock"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@id/bg3"
+            app:layout_constraintEnd_toEndOf="@id/bg3"
+            app:layout_constraintStart_toStartOf="@id/bg3"
+            app:layout_constraintTop_toBottomOf="@id/business" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        app:itemTextAppearanceActive="@style/BottomNavigationView"
+        app:itemTextAppearanceInactive="@style/BottomNavigationView"
+        android:background="@color/teal_green"
+        app:itemTextColor="@drawable/selector_layout"
+        app:itemIconTint="@drawable/selector_layout"
+        app:menu="@menu/menu"
+        app:labelVisibilityMode="labeled"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

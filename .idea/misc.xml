@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/drawable-v24/background_x_5rad.xml" value="0.142" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/drawable-v24/btn_blue_5rad.xml" value="0.142" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/drawable-v24/btn_green_5rad.xml" value="0.142" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/drawable-v24/btn_red_5rad.xml" value="0.142" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/drawable/background_tealgreen_30rad.xml" value="0.142" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/drawable/bottom_shape.xml" value="0.142" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.142" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.142" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/drawable/ic_launcher_background.xml" value="0.142" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/drawable/selector.xml" value="0.142" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/drawable/selector_layout.xml" value="0.142" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/layout/about_layout_dialog.xml" value="0.25" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/layout/activity_bottom_nav.xml" value="0.25" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/layout/activity_bottom_navigation.xml" value="0.12" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/layout/activity_daily.xml" value="0.25" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/layout/activity_favorite.xml" value="0.25" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/layout/activity_gallery.xml" value="0.25" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/layout/activity_walkthrough.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/layout/fragment_notifications.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/layout/main_fragment.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/layout/single_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/layout/single_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/layout/slide_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/menu/bottom_nav_menu.xml" value="0.22" />
+        <entry key="..\:/Users/klsfa/AndroidStudioProjects/10119232Latihan4/app/src/main/res/menu/menu.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
